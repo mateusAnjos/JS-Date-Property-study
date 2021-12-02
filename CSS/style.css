@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+#dataSerket{
+    border: 1px white solid;
+    padding: 1rem;
+    border-radius: 8px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+strong{
+    color: red;
+    font-weight: bold;
+}
+@media only screen and (min-width: 280px) {
+    #dataSerket{
+        width: 16rem;
+        font-size: 19px;
+        text-align: center;
+    }
+   
+}
+
+@media only screen  and (min-width: 320px) {
+    #dataSerket{
+        width: 19rem;
+        font-size: 19px;
+        text-align: center;
+    }
+   
+}
+
+@media only screen and (min-width: 360px) {
+    #dataSerket{
+        width: 20rem;
+        font-size: 21px;
+        text-align: center;
+    }
+   
+}
+@media only screen  and (min-width: 414px) {
+    #dataSerket{
+        width: 23rem;
+        font-size: 26px;
+        text-align: center;
+    }
+   
+}
+@media only screen and (min-width: 768px) {
+    #dataSerket{
+        width: 40rem;
+        font-size: 40px;
+        text-align: center;
+    }
+   
+}
+@media only screen and (min-width: 1024px) {
+    #dataSerket{
+        width: 40rem;
+        font-size: 32px;
+        text-align: center;
+    }
+   
+}
